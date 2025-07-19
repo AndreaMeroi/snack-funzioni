@@ -6,17 +6,17 @@ const userName = 'Mario';
 // Dichiara la funzione qui.
 /*
 function saluto(word) {
-    console.log('Ciao ' + userName);
+    return 'Ciao ' + userName;
 
 }
 */
 
-const arrowSaluto = (word) => console.log('Ciao ' + userName)
+const arrowSaluto = (word) => 'Ciao ' + word
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-arrowSaluto(userName)
+console.log(arrowSaluto(userName))
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
