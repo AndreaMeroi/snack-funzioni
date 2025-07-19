@@ -14,7 +14,6 @@ function saluto(word) {
 
 
 
-
 // Invoca la funzione qui e stampa il risultato in console
 
 saluto(userName);
