@@ -4,19 +4,19 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+/*
 function saluto(word) {
     console.log('Ciao ' + userName);
 
 }
+*/
 
-
-
+const arrowSaluto = (word) => console.log('Ciao ' + userName)
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-saluto(userName);
+arrowSaluto(userName)
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
